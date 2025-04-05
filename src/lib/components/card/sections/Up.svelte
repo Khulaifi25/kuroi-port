@@ -1,5 +1,5 @@
 <script>
-  import rift from "$lib/assets/img/rift-avatar.png"
+  import kuroi from "$lib/assets/img/kuroi-avatar.png"
   import QuarterCircle from "$lib/etc/circularbar.svelte"
   import LinedTitle from "$lib/etc/lined_title.svelte"
   import { links } from "$lib/etc/nav_and_links.svelte"
@@ -44,14 +44,14 @@
       <!-- Arch-chan Pic Border Quarter Circle -->
       <div class="absolute -scale-x-100 w-full h-full">
         <section class="animate-[spin_5s]">
-          <QuarterCircle bind:value={$value} info="" color="var(--theme-green)" trackColor="transparent" thickness=4px/>
+          <QuarterCircle bind:value={$value} info="" color="var(--theme-blue)" trackColor="transparent" thickness=4px/>
         </section>
       </div>
       <!-- Arch-chan Pic Border Dotted -->
-      <div class="absolute animate-[spin_30s_linear_infinite] rounded-full w-full h-full outline-dashed outline-[--theme-green] outline-offset-[-5px] outline-2"/>
+      <div class="absolute animate-[spin_30s_linear_infinite] rounded-full w-full h-full outline-dashed outline-[--theme-blue] outline-offset-[-5px] outline-2"/>
     </div>
     <!-- Arch-chan Image -->
-    <img src={rift} class="rounded-full scale-[90%]" alt="">
+    <img src={kuroi} class="rounded-full scale-[90%]" alt="">
   </div>
 
   <!-- Biodata -->
@@ -59,18 +59,19 @@
               max-lg:mx-10 max-lg:my-8
               max-sm:text-justify">
       <!-- First Line -->
-      <LinedTitle title="Noir"/>
+      <LinedTitle title="@kurooii_"/>
       <!-- Introduction -->
       <div class="mx-[1rem]">
         <p1 class="font-bold">
-          KAZUHIKO RiFT 『和彦リフト』
+          KUROI NARASEGAWA 『黒井奈良瀬川』
         </p1>
         <div class="flex-middle gap-4 pt-5 max-sm:flex-col max-sm:items-start">
           <p2>
-            Original Character (OC) designed by the Author from 4Saken Rf. 
-            <br>His name is Kazuhiko RiFT『和彦リフト』often called Rift.
-            <br>Now he is 17 years old and will have a birthday on January 30th. 
-            <br>He has the characteristics of a black cat (Noir Neko) which is very cute and adorable.
+            
+            Original Character and Persona Combined
+            <br>His name is Kuroi Narasegawa『黒井奈良瀬川』often called Kuro/Roi
+            <br>He is 18 years old and have Birthday on February 1st 
+            <br>He is a purple cat with fluffy tail and ears 😼
           </p2>
         </div>
       </div>

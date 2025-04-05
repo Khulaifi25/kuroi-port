@@ -13,10 +13,10 @@
   ]
 
   export const links = [
-    {name:"Instagram", icon:"fa-brands fa-instagram", color:"text-[--theme-purple]", link: "https://www.instagram.com/nomiisoou/"},
-    {name:"X", icon:"fa-brands fa-x-twitter", color:"text-[--theme-cyan]", link: "https://twitter.com/noirs_rf"},
-    {name:"VGen", icon:"fa-brands fa-deviantart", color:"text-[--theme-white]", link: "https://vgen.co/noirs_rf"},
-    {name:"Pixiv", icon:"fa-brands fa-pixiv", color:"text-[--theme-blue]", link: "https://www.pixiv.net/en/users/69091162"},
-    {name:"Support", icon:"fa-brands fa-patreon", color:"text-[--theme-yellow]", link: "https://trakteer.id/kazuhiko-rift"}
+    {name:"Instagram", icon:"fa-brands fa-instagram", color:"text-[--theme-purple]", link: "https://www.instagram.com/kurooiii_"},
+    {name:"X", icon:"fa-brands fa-x-twitter", color:"text-[--theme-cyan]", link: "https://x.com/kurooiii_"},
+    {name:"Facebook", icon:"fa-brands fa-facebook", color:"text-[--theme-white]", link: "https://www.facebook.com/kuroiart.art"},
+    {name:"Discord", icon:"fa-brands fa-discord", color:"text-[--theme-blue]", link: "https://discordapp.com/users/601084682221780992"},
+    
   ]
 </script>

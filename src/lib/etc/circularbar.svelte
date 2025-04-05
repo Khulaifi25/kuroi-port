@@ -85,7 +85,19 @@
             <circle cx="{xaxis}" cy="{radius}" r="{radius}" bind:this={hidCircle}></circle>
             <circle cx="{xaxis}" cy="{radius}" r="{radius}" color="{color}" bind:this={circle}></circle>
             {#if checkable}
-                <circle cx="{xaxis}" cy="{radius}" r="{radiusBtn}" bind:this={btnCircle} class="btn" class:sel={checked} on:click={() => checked = !checked}></circle>
+            <circle
+            cx="{xaxis}"
+            cy="{radius}"
+            r="{radiusBtn}"
+            bind:this={btnCircle}
+            class="btn"
+            class:sel={checked}
+            on:click={() => checked = !checked}
+            on:keydown={(e) => { if (e.key === 'Enter' || e.key === ' ') checked = !checked }}
+            tabindex="0"
+            role="button"
+        />
+        
             {/if}
         </svg>
         {#if !checkable}   

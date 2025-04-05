@@ -20,7 +20,7 @@
   }
 </script>
 
-<a class="mr-5" href="https://vgen.co/noirs_rf" target="_blank" bind:this={this_element}>
+<a class="mr-5" href="https://www.instagram.com/kurooiii_" target="_blank" bind:this={this_element}>
   <button class="button-theme group">
     <p1 class="color-[--theme--white] group-hover:text-[--theme-black]">
       Click Here !
