@@ -5,7 +5,7 @@
   export var icon
   export var show_rounded_line = false
 
-  if (path == null) path = "kurooii"
+  if (path == null) path = "kurooiii"
   if (icon == null) icon = "fa-solid fa-house"
   if (color == null) color = "text-[--theme-absolute-white]"
 

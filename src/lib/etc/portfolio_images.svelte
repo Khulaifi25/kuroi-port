@@ -200,8 +200,8 @@
     index: 11,
     index_light: 11,
     metadata:{
-      description:  [ "Kurooii",
-                      "Kurooii"],
+      description:  [ "Kurooiii",
+                      "Kurooiii"],
       resolution:   [ "1536 × 2048",
                       "1536 × 2048"],
       date:         [ "10/10/2023",

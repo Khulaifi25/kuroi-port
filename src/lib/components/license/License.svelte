@@ -5,8 +5,8 @@
 
   export let intro_ended = false
 
-  let web_license = "@kurooii_ | Website by Noir | Template by Ravimo"
-  let art_license = "@kurooii_ | Artwork by Kurooii"
+  let web_license = "@kurooiii_ | Website by Noir | Template by Ravimo"
+  let art_license = "@kurooiii_ | Artwork by Kurooiii"
   
 </script>
 

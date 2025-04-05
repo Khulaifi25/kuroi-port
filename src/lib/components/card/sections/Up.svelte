@@ -59,7 +59,7 @@
               max-lg:mx-10 max-lg:my-8
               max-sm:text-justify">
       <!-- First Line -->
-      <LinedTitle title="@kurooii_"/>
+      <LinedTitle title="@kurooiii_"/>
       <!-- Introduction -->
       <div class="mx-[1rem]">
         <p1 class="font-bold">
